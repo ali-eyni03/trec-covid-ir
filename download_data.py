@@ -1,7 +1,3 @@
-# todo : the downlaoded zip should be delete- before download it should check the files exist or not
-
-
-
 from beir import util, LoggingHandler
 from beir.retrieval import models
 from beir.datasets.data_loader import GenericDataLoader
