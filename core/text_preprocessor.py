@@ -1,10 +1,7 @@
 
 import json
 
-
 class TextPreProcessor:
-    
-    
     
     def text_lower(self, text: str) -> str:
         return text.lower()
@@ -20,7 +17,6 @@ class TextPreProcessor:
         text = self.remove_punctuation(text)
         text = self.tokenization(text)
         return text
-
     
     def load_corpus(self, file_path: str , limit : int = None) -> list:
         with open(file_path, 'r', encoding='utf-8') as file:

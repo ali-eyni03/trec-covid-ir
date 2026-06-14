@@ -1,5 +1,5 @@
 from rank_bm25 import BM25Okapi
-from core.preprocessor import TextPreProcessor
+from core.text_preprocessor import TextPreProcessor
 import pickle
 
 class BM25Retriever:
