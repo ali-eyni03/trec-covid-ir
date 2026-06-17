@@ -1,6 +1,6 @@
 data/raw
 data/processed
-*test*.py
+core/test*py
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

@@ -1,2 +1,0 @@
-./download_data.py
-- the downlaoded zip should be delete- before download it should check the files exist or not
