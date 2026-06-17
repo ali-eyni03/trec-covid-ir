@@ -1,5 +1,4 @@
-data/raw
-data/processed
+data/*
 core/test*py
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -34,7 +33,7 @@ MANIFEST
 #   before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
-
+models/*
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
